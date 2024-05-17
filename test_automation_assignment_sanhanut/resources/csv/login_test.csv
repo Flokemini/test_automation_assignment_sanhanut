@@ -1,0 +1,4 @@
+${test_id},${username},${password},${message}
+positive_case,tomsmith,SuperSecretPassword!,You logged into a secure area!
+negative_case_password_invalid,tomsmith,Password!,Your password is invalid!
+negative_case_username_invalid,tomholland,Password!,Your username is invalid!

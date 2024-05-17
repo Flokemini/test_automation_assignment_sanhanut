@@ -1,0 +1,15 @@
+*** Variables ***
+&{android_locator}
+...    btn_add=xpath=//android.widget.ImageView[@resource-id="com.avjindersinghsekhon.minimaltodo:id/addToDoItemFAB"]
+...    txt_title=xpath=//android.widget.EditText[@resource-id="com.avjindersinghsekhon.minimaltodo:id/userToDoEditText"]
+...    btn_remind=xpath=//android.widget.Switch[@resource-id="com.avjindersinghsekhon.minimaltodo:id/toDoHasDateSwitchCompat"]
+...    btn_next=xpath=//android.widget.ImageView[@resource-id="com.avjindersinghsekhon.minimaltodo:id/makeToDoFloatingActionButton"]
+...    txt_today=xpath=//android.widget.EditText[@resource-id="com.avjindersinghsekhon.minimaltodo:id/newTodoDateEditText"]
+...    date_ok=xpath=//android.widget.Button[@resource-id="com.avjindersinghsekhon.minimaltodo:id/ok"]
+...    number_time=xpath=//android.widget.EditText[@resource-id="com.avjindersinghsekhon.minimaltodo:id/newTodoTimeEditText"]
+...    time_ok=xpath=//android.widget.Button[@resource-id="com.avjindersinghsekhon.minimaltodo:id/ok"]
+...    btn_edit=xpath=//android.widget.TextView[@resource-id="com.avjindersinghsekhon.minimaltodo:id/todoListItemTimeTextView"]
+...    btn_dot=xpath=//android.widget.ImageView[@content-desc="More options"]
+...    txt_setting=xpath=//android.widget.TextView[@resource-id="com.avjindersinghsekhon.minimaltodo:id/title" and @text="Settings"]
+...    chkbox_night=xpath=//android.widget.CheckBox[@resource-id="android:id/checkbox"]
+...    btn_back=xpath=//android.widget.ImageButton[@content-desc="Navigate up"]
